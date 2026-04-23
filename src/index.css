@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #f9f9ff;
+  --color-surface-dim: #d8d9e3;
+  --color-surface-bright: #f9f9ff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f2f3fd;
+  --color-surface-container: #ecedf7;
+  --color-surface-container-high: #e6e7f2;
+  --color-surface-container-highest: #e1e2ec;
+  --color-on-surface: #191b23;
+  --color-on-surface-variant: #424754;
+  --color-outline: #727785;
+  --color-primary: #0058be;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #2170e4;
+  --color-on-primary-container: #fefcff;
+  --color-secondary: #b61722;
+  --color-on-secondary: #ffffff;
+  --color-tertiary: #6b38d4;
+  --color-on-tertiary: #ffffff;
+  --color-addition-blue: #3B82F6;
+  --color-subtraction-red: #EF4444;
+  --color-multiplication-purple: #8B5CF6;
+  --color-division-green: #10B981;
+  
+  --font-lexend: "Lexend", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-inter;
+  }
+}
+
+@layer utilities {
+  .neubrutal-shadow {
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  }
+  .neubrutal-shadow-lg {
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+  }
+  .neubrutal-card {
+    @apply border-2 border-slate-900;
+  }
+  .active-press {
+    @apply active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all;
+  }
+}
