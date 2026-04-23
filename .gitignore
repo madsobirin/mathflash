@@ -8,3 +8,5 @@ coverage/
 !.env.example
 # Added by code-review-graph
 .code-review-graph/
+
+/generated/prisma
