@@ -1,5 +1,3 @@
-<div align="center">
-
 # 🧮 MathFlash: Interactive Basic Math Learning
 
 **MathFlash** adalah aplikasi pembelajaran matematika dasar (Penjumlahan, Pengurangan, Perkalian, dan Pembagian) berbasis flashcard interaktif yang dirancang untuk memperkuat fondasi berhitung dengan pengalaman yang seru.
